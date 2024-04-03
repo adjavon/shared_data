@@ -48,6 +48,6 @@ def validate_df(df):
 
 
 def test_example():
-    filename = "example_data.csv"
+    filename = "data.csv"
     df = pd.read_csv(filename)
     validate_df(df)
